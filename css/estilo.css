@@ -1,0 +1,34 @@
+        /********** Zerando estilos *********/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* variaveis*/
+
+:root{
+    --cor-principal: #54b6b9;
+    --cor-text:#fff;
+    --border-all:#999;
+    --bio-bgcolor:#1e2a3a;
+    --a-bgcolor:#111821;
+}
+
+
+/* container */
+
+#container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;    
+}
+
+#navLateral{
+    border: solid 1px red;
+}
+
+#sobreContainer{
+    border: solid 1px blue;
+}
