@@ -38,24 +38,38 @@
             <p id="welcome">É bom te ver por aqui!</p>
             <ul>
                 <li>
-                    <a href="https://github.com/daniSoares1993"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a id="github" href="https://github.com/daniSoares1993"  target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/daniel-costa-022757242/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a  id="linkedin" href="https://www.linkedin.com/in/daniel-costa-022757242/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/soaresdani93/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a id="instagram" href="https://www.instagram.com/soaresdani93/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
                 </li>
             </ul>
             <div id="containerEmail">
                 <a href="mailto:danielpsc1993@gmail.com">danielpsc1993@gmail.com</a>
+            </div>
+
+            <div id="CurriculoSobre">
+                <h2>Cursos:</h2>
+                <p>Lógica de programação e Algoritimos - Udemy</p>
+                <p>Desenvolvimento Front-End (Html | Css | Bootstrap | JavaScript) - Udemy</p>
+                <p>Git - Github - Udemy</p>  
+                <p>Inglês - Cultura inglesa e continuo em curso particular(intermediário)</p>  
+            </div>
+            <div>
+                <h2>Ultimo Emprego:</h2>
+                <p>Gerente Operacional durante 5 anos em Santa Feira Hortifruti Ltda,atuando em toda parte de
+                    gerenciamento de equipe e supply chain.
+                </p>
             </div>
         </aside>
         <section id="sobreContainer">
             <h1 id="nome">Daniel Costa</h1>
             <h2 id="tituloSobre"><span class="skills-title">Desenvolvedor Front-End</span></h2>
             <p class="descricao">Sou um Desenvolvedor Front End que busca uma oportunidade no mercado de tecnologia para ajudar na resolução de problemas,estou disposto a escutar sempre e buscando um melhor desenvolvimento profissional e fazer com que a empresa alcance os seus objetivos</p>
-            <div id="HardSkills">
+            <div id="hardSkills">
                 <h2 class="skills-title">Hard Skills</h2>
                 <p class="descricao" >Comecei no esporte com 7 anos de idade e fiquei ate meus 23 anos dentro do esporte profissional,oque sou hoje devo muito a essa experiencia,
                     tanto com a competitividade em buscar sempre,mesmo que seja um pequeno passo,aprender e se desenolver,ser melhor que ontem,dedicando-se através de um direcionamento para que isso aconteca,
@@ -67,30 +81,46 @@
             
             <div id="skills-container">  
                 <h2 class="skills-title">Soft Skills</h2>            
-                    <div id="frontEnd">
+                <div id="frontEnd">
                     <div class="frontEndClass">
-                        <i class="devicon-html5-plain colored"></i><br><span>Html 5 - Nossa estrutura html basea-se na semântica,sempre visando a melhor estruturação do código,para ajdudar na interpretação e manutenção dos códigos</span>
+                        <i id="htmlId" class="devicon-html5-plain"></i><br><p class="content">Html 5 - Nossa estrutura html basea-se na semântica,sempre visando a melhor estruturação do código,para ajdudar na interpretação e manutenção dos códigos</p>
                     </div>
                     <div class="frontEndClass">
-                        <i class="devicon-css3-plain colored"></i><br><span>Css3 - Utilizando grid e flexbox com foco sempre voltado para o mobile first e aplicando os estilos de nossos projetos</span>
+                        <i id="cssId" class="devicon-css3-plain"></i><br><p class="content">Css3 - Utilizando grid e flexbox com foco sempre voltado para o mobile first e aplicando os estilos de nossos projetos</p>
                     </div>
                     <div class="frontEndClass">
-                        <i class="devicon-javascript-plain colored"></i><br><span>JavaScript - É a nossa interatividade com o usuário,além de ser uma ponte com nosso Back-End.
-                    </span>
+                        <i id="javascriptId" class="devicon-javascript-plain"></i><br><p class="content">JavaScript - É a nossa interatividade com o usuário,manipulando D.O.M.,arrays,estruturas de repetições,objetos e ser a ponte para o nosso Back-End.
+                        </p>
                     </div>
                 </div>
-                <div id="estudadas">
-                    <h2>Plano de estudos</h2>
+                <div id="skills-container">  
+                    <h2 class="skills-title">Plano de estudos</h2>     
                     <p>
                         Após ter criado uma base,tenho em mente seguir os estudos e iniciar para tentar agregar a minha futura equipe e empresa,
-                        as tecnologias: <br>                       
-                        <i class="devicon-react-original-wordmark colored"></i><span>React</span><br>
-                        <i class="devicon-nodejs-plain-wordmark colored"></i><span>Node.js</span>
-                    </p>
-                </div>
+                        as tecnologias:
+                    </p>  <br>   
+                    <div id="frontEnd">
+                        <div class="frontEndClass">
+                            <i id="react" class="devicon-react-original-wordmark"></i><br><p class="content">React - pensando em um futuro,trabalhar com componente pode me trazer uma otimização de tempo e velocidade em meus códigos</p>
+                        </div>
+                        <div class="frontEndClass">
+                            <i id="node" class="devicon-nodejs-plain"></i><br><p class="content">Node.js - por ja termos uma base em Js,o node seria nossa ponte com o Back-End  para facilitar o meu aprendizado</p>
+                        </div>
+                        <div class="frontEndClass">
+                            <i id="phyton" class="devicon-python-plain-wordmark "></i><br><p class="content">Phyton - Por ser uma linguagem muito popular e nos proporcionar atuar em várias áreas,é uma linguagem que me chama atencção para um futuro próximo</p>
+                        </div>
+                    </div> 
             </div>
         </section>
     </main>
+    <footer>
+        <p>
+            Site desenvolvido por DStech
+        </p>
+        <p>
+            June,20th 2022
+        </p>
+    </footer>
 
  <!-- icones -->
  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
