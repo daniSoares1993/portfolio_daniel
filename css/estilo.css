@@ -309,4 +309,8 @@ footer{
     #sobreContainer{
         max-height: 1240px;
     }
+
+    footer{
+        margin-top: 100px;
+    }
 }
